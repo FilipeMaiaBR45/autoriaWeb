@@ -1,0 +1,143 @@
+
+figure{
+    display: flex;
+    justify-content: center;
+    margin: 0;
+}
+
+
+
+.centro{
+    display: flex;
+    justify-content: center;
+}
+
+.tituloH1{
+    color: #2f3a60;
+    font-family: Ethnocentric;
+    font-size: 1.5rem;
+    margin-top: 1.25rem;
+}
+
+#titleNoticia{
+    margin-left: 0.5rem;
+    color: #2f3a60;
+    font-family: Ethnocentric;
+    font-size: 1.5rem;
+    margin-top: 1.25rem;
+}
+
+
+.tituloH2{
+    color: #2f3a60;
+    font-family: Ethnocentric;
+    font-size: 1rem;
+   
+    margin-top: 1.25rem;
+    margin-left: 1rem;
+}
+
+.paragrafo{
+    text-align: justify;
+    margin-left: 2.813rem;
+    margin-right: 2.813rem;
+    margin-top: 1rem;
+}
+
+.ulClass{
+    text-align: justify;
+    margin-left: 2.813rem;
+    margin-right: 2.813rem;
+   
+}
+.olClass{
+    text-align: justify;
+    margin-left: 2.813rem;
+    margin-right: 2.813rem;
+    list-style-type: upper-roman;
+    
+}
+
+
+.article{
+    padding: 0;
+    
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+    margin-bottom: 1.5rem;
+
+    border: solid 0.125rem #2f3a60;
+    border-radius: 0.313rem;
+}
+
+.article div{
+    margin: 1rem;
+}
+
+.article div p{
+    display: inline-block;
+    margin: 0;
+}
+
+
+.span{
+    color:#2f3a60;
+    font-weight: bolder;
+}
+
+
+.tabela{
+    width: 80%;
+}
+
+.nav-fixed{
+position: sticky;
+top: 10px
+}
+
+.titleFooter{
+    font-size: 0.8rem;
+    color: white;
+    font-family: sans-serif;
+    font-weight: bolder;
+}
+
+.pFooter{
+    color: white;
+    font-size: 0.6rem;
+    font-weight: bolder;
+    margin: 0;
+}
+
+#footer{
+    position: relative;
+}
+
+.addresFooter {
+    color: white;
+    font-size: 0.6rem;
+}
+.addresFooter a{
+    color: white;
+    text-decoration: none;
+}
+.displayFooter {
+    display: flex;
+}
+.show {
+    display: none;
+}
+@media (max-width: 576px) { 
+    .displayFooter {
+        display: inline-block;
+    }
+    .show {
+        display: block;
+    }
+    #footer{
+        position: sticky;
+        bottom: auto;
+    }
+}
+
+

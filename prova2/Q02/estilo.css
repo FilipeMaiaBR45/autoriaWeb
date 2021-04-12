@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+
+:root {
+    --bs-blue: #0d6efd;
+    --bs-indigo: #6610f2;
+    --bs-purple: #6f42c1;
+    --bs-pink: #d63384;
+    --bs-red: #dc3545;
+    --bs-orange: #fd7e14;
+    --bs-yellow: #ffc107;
+    --bs-green: #198754;
+    --bs-teal: #20c997;
+    --bs-cyan: #0dcaf0;
+    --bs-white: #fff;
+    --bs-gray: #6c757d;
+    --bs-gray-dark: #343a40;
+    --bs-primary: #0d6efd;
+    --bs-secondary: #6c757d;
+    --bs-success: #198754;
+    --bs-info: #0dcaf0;
+    --bs-warning: #ffc107;
+    --bs-danger: #dc3545;
+    --bs-light: #f8f9fa;
+    --bs-dark: #212529;
+    --bs-font-sans-serif: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    --bs-font-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+    --bs-gradient: linear-gradient(180deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0));
+  }
+
+
+body,
+html {
+    height: 100%;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+figure {
+    margin: 0;
+
+}
+
+.bg-imagem {
+
+    background-image: url("assets/fundoCinza.jpg");
+    /* The image used */
+
+
+    /* Add the blur effect */
+
+
+    /* Full height */
+    height: 25%;
+
+    /* Center and scale the image nicely */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+/* Position text in the middle of the page/image */
+.bg-texto {
+
+
+    color: var(--bs-dark);
+    font-weight: bold;
+    font-family: 'Righteous', cursive;
+
+    position: absolute;
+    top: 12.5%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 80%;
+    padding: 20px;
+    text-align: center;
+
+
+}
+
+.bg-img-geometri {
+    background-image: url("assets/geometri.jpg");
+
+
+    min-height: auto;
+
+
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.minhaFoto {
+    width: 16rem;
+    box-shadow: -15px 10px 100px gray;
+}
+
+.paragrafoApresentacao {
+
+    text-align: justify;
+    color: var(--bs-dark);
+    font-weight: bold;
+}
+
+.sombra{
+    box-shadow: -5px 1px 15px gray;
+}
+
+.h2{
+    font-family: 'Righteous', cursive;
+
+}
+
+.li{
+    font-family: 'Righteous', cursive;
+    font-size: 1rem;
+}
+
+.shields{
+    width: 10rem;
+}
+
+
